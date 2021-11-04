@@ -5,7 +5,7 @@ pipeline {
             steps {
                 sh 'echo "My First Pipeline"'
                 sh '''
-                   echo "By the way, I can do more stuff in here"'
+                   echo "By the way, I can do more stuff in here"
                    ls -lah
                 '''
             }
