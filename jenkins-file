@@ -1,27 +1,18 @@
 pipeline {
-
-    agent any 
-    
+    agent any   
     stages{
-
-        stage("build") {
-
+        stage("Build") {
             steps {
-                echo 'building the applocation..'
+                echo 'This is build stage'
             }
         }
-
         stage("test") {
-
             steps {
-
+               echo "This is build stage"
             }
         }
-
-        stage("deploy") {
-
+        stage("Deploy") {
             steps {
-
             }
         }
     }
